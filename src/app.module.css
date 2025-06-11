@@ -1,0 +1,16 @@
+.ul_produtos {
+    display: flex;
+    padding: 24px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 32px;
+}
+.ul_produtos li {
+    border-radius: 12px;
+    background-color: #e0e0e0;
+    padding: 12px;
+}
+.ul_produtos .promo {
+    background-color: #339823;
+}
