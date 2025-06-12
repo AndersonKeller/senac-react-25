@@ -1,4 +1,5 @@
-import "./style.css"
+import { StyledHeader, StyledTitle } from "./style"
+
 
 interface HeaderProps {
     name: string,
@@ -6,11 +7,11 @@ interface HeaderProps {
 }
 
 export function Header({name,children}:HeaderProps){
-    return <header>
+    return <StyledHeader>
 
-        <p>{name}</p>
+        <StyledTitle>{name}</StyledTitle>
         {children}
     
-    </header>
+    </StyledHeader>
     
 }

@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.teste {
+  @apply rounded-b-lg shadow-md text-2xl bg-amber-600 p-6;
+}
